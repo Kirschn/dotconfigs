@@ -1,5 +1,5 @@
 #!/bin/bash
-apt-get install nodejs npm php i3 i3blocks lxappearance thunar rofi gnome-icon-theme --yes
+apt-get install nodejs npm php i3 i3blocks lxappearance thunar rofi gnome-icon-theme git --yes
 cp ./i3.conf ~/.config/i3/config
 cp ./i3blocks.conf ~/.conf/i3/config
 git clone https://github.com/supermarin/YosemiteSanFranciscoFont
